@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #DFEDF3; /* Color rosa suave para el fondo general */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 90%; /* Cambiamos el ancho máximo a un valor porcentual */
+  margin: 50px auto; /* Ajustamos el margen */
+  text-align: center;
+  background-color: #F7EFF9; /* Color rosa suave para el contenedor principal */
+  padding: 20px; /* Agregamos un poco de espacio alrededor del contenedor */
+  border-radius: 10px; /* Añadimos bordes redondeados al contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añadimos una sombra suave al contenedor */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan en varias filas si no caben */
+  margin-top: 20px; /* Ajustamos el margen superior */
+}
+
+.options a {
+  margin: 10px; /* Añadimos un margen a cada enlace */
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.options a:hover {
+  transform: scale(1.1);
+}
+
+.options img {
+  width: 200px;
+  height: 200px;
+  background-color: #f4e5f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #2c3e50; /* Color rosa suave para el footer */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Añadimos bordes redondeados al footer */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añadimos una sombra suave al footer */
+  margin-top: 20px; /* Añadimos un margen superior */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  margin-right: 10px;
+  color: #ffffff; /* Color de texto */
+}
+
+.footer-content a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.footer-content a:hover {
+  transform: scale(1.1);
+}
+
+.footer-content img {
+  width: 40px; /* Tamaño del icono de WhatsApp */
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto; /* Ajustamos el margen para tamaños de pantalla pequeños */
+  }
+  
+  .options {
+    margin-top: 10px; /* Ajustamos el margen superior para tamaños de pantalla pequeños */
+  }
+}

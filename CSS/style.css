@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFEDF3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #FEF0FD;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Agregamos una transición suave al efecto de zoom */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.1); /* Hacemos que la imagen se vea un poco más grande al pasar el mouse sobre ella */
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-item h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .product-item p {
+    font-size: 14px;
+    color: #414141;
+  }
+  
+  /* Estilos para el botón de WhatsApp */
+  .whatsapp-button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 9999;
+  }
+  
+  footer {
+    background-color: #2c3e50; /* Color rosa suave para el footer */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Añadimos bordes redondeados al footer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añadimos una sombra suave al footer */
+    margin-top: 20px; /* Añadimos un margen superior */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin-right: 10px;
+    color: #fdfdfd; /* Color de texto */
+  }
+  
+  .footer-content a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-content a:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-content img {
+    width: 40px; /* Tamaño del icono de WhatsApp */
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      margin: 20px auto; /* Ajustamos el margen para tamaños de pantalla pequeños */
+    }
+    
+    .options {
+      margin-top: 10px; /* Ajustamos el margen superior para tamaños de pantalla pequeños */
+    }
+  }
+  /* Estilos para el header */
+header {
+  background-color: #2c3e50; /* Color de fondo del header */
+  padding: 20px; /* Espaciado interno del header */
+  color: white; /* Color del texto en el header */
+  text-align: center; /* Alineación del texto en el centro */
+}
+
+/* Estilos para el botón */
+.btn {
+  background-color: #91cdf5; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilos para el botón al pasar el mouse por encima */
+.btn:hover {
+  background-color: #2980b9; /* Color de fondo del botón al pasar el mouse por encima */
+}
+
+  
